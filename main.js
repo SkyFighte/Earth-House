@@ -1,4 +1,3 @@
-// User Authentication
 let currentUser = null;
 
 function login() {
@@ -24,6 +23,14 @@ function isValidCredentials(username, password) {
         'Hrishi': 'Hrishi1!',
         'Dhairya': 'Dhairya1!',
         'Pranavi': 'Pranavi1!'
+        ,'Akshara': 'Akshara1!'
+        ,'Gauri':'Gauri1!'
+        ,'Nishad': 'Nishad1!'
+        ,'Yuv':'Yuv1!'
+        ,'Adarsh': 'Adarsh1!'
+        ,'Om':'Om1!'
+        ,'Avantika':'Avantika1!'
+        ,'Siddhant':'Kunjeer1!'
     };
     return validCredentials.hasOwnProperty(username) && validCredentials[username] === password;
 }
@@ -72,3 +79,4 @@ function encryptMessage(message) {
 // - Message history retrieval
 // - File upload and sharing
 // - User interface enhancements (e.g., emojis, message formatting)
+
